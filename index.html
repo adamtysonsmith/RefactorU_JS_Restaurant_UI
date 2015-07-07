@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Restaurant Objects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+        <img class="logo" src="taco.png" width="150">
+        <h1>Pancho's Taqueria</h1>
+
+        <div class="menu">
+            <h2>Menu</h2>
+            <div class="content"></div>
+        </div>
+
+        <div class="diet-preference">
+            <h2>Dietary Preference</h2>
+            <div class="content">
+                <input type="checkbox" class="is-vegan"><span>Vegan</span><br>
+                <input type="checkbox" class="is-gluten-free"><span>Gluten Free</span><br>
+                <input type="checkbox" class="is-citrus-free"><span>Citrus Free</span><br>           
+            </div>
+        </div>
+
+        <div class="order">
+            <h2>Order</h2><h2 class="order-total"></h2>
+            <div class="content">
+            </div>
+        </div>
+
+    </div> <!-- End Container -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js"></script>
+    <script src="restaurant.js"></script>
+</body>
+</html>
